@@ -1,8 +1,6 @@
 # FurnaceTest
-
-White furnace test and weak white furnace test implementation for Cook-Torrance with GGX distribution and Smith (height-correlated) geometry term and square roughness remap. 
-
-White furnace test is basically a lighting integral against a constant white environment. It should always evaluate to 1 if there is no energy loss or gain. In this case we can see substantial amount of energy loss, especially for high roughness values.
+White furnace test is basically a lighting integral against a constant white environment.
+White furnace test implementation for a few DSPBR https://github.com/DassaultSystemes-Technology/EnterprisePBRShadingModel models. 
 
 More info:
 Eric Heitz - "Understanding the Masking-Shadowing Function in Microfacet-Based BRDFs", JCGT 2014
