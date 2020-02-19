@@ -84,11 +84,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="dds.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src/dds.cpp" />
+    <ClCompile Include="src/main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="dds.h" />
+    <ClInclude Include="src/dds.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
